@@ -87,7 +87,7 @@ const VacanciesPage = (props) => {
 
     useEffect(() => {
         fetchVacanciesList(activePage);
-    }, [activePage])
+    }, [activePage]) // eslint-disable-line no-use-before-define
 
     return (
         <div className={s.vacanciesPage}>

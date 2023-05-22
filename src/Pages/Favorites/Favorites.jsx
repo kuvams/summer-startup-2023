@@ -5,13 +5,11 @@ import s from './Favorite.module.css';
 
 const Favorites = () => {
 
-    let isEmpty = true;
     const [favVacanicesList, setFavVacanciesList] = useState(null)
 
     let fetchVacanciesList = async () => {
         let favorites = JSON.parse(localStorage.getItem(`favoriteVacancies`));
         if (favorites.length) {
-            isEmpty = false
 
             let query = new URLSearchParams(favorites.map(id => [`ids[]`, id])).toString();
             console.log(query);
@@ -38,7 +36,7 @@ const Favorites = () => {
         }
     }, [])
 
-    return (
+    return ( // eslint-disable-line no-use-before-define
         (favVacanicesList === null) ?
             <div className={s.loader}><Loader/></div> :
             <div className={s.favoritesPage}>
