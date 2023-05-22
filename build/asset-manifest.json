@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/startup-summer-2023/static/css/main.0bcd14f5.css",
+    "main.js": "/startup-summer-2023/static/js/main.8b49522a.js",
+    "static/js/787.d96a04d9.chunk.js": "/startup-summer-2023/static/js/787.d96a04d9.chunk.js",
+    "static/media/Frame.png": "/startup-summer-2023/static/media/Frame.eb3718ec8ad83e76e69d.png",
+    "index.html": "/startup-summer-2023/index.html",
+    "main.0bcd14f5.css.map": "/startup-summer-2023/static/css/main.0bcd14f5.css.map",
+    "main.8b49522a.js.map": "/startup-summer-2023/static/js/main.8b49522a.js.map",
+    "787.d96a04d9.chunk.js.map": "/startup-summer-2023/static/js/787.d96a04d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bcd14f5.css",
+    "static/js/main.8b49522a.js"
+  ]
+}
