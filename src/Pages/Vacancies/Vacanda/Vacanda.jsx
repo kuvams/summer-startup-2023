@@ -38,7 +38,7 @@ const Vacanda = (props) => {
                                 <div>{`${r.town.title}`}</div>
                             </div>
                         </div>
-                        <FavButton data-elem={`vacancy-${r.id}-shortlist-button`} className={s.favButton} id={r.id} favRender={props.favRender}/>
+                        <FavButton className={s.favButton} id={r.id} favRender={props.favRender}/>
                     </div>
                 )
             }

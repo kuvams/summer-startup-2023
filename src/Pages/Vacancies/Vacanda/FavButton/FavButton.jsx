@@ -13,6 +13,7 @@ const FavButton = (props) => {
     let isFavorited = !!favs.includes(props.id);
     let icon = isFavorited ?
         <ActionIcon
+            data-elem={`vacancy-${props.id}-shortlist-button`}
             size="xs"
             color="#5e96FC"
             variant="transparent"
@@ -22,6 +23,7 @@ const FavButton = (props) => {
         </ActionIcon>
         :
         <ActionIcon className={s.notFav}
+            data-elem={`vacancy-${props.id}-shortlist-button`}
             size="xs"
             color="gray"
             variant="transparent"
