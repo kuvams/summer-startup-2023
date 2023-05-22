@@ -36,7 +36,7 @@ const Favorites = () => {
         }
     }, [])
 
-    return ( // eslint-disable-line no-use-before-define
+    return (
         (favVacanicesList === null) ?
             <div className={s.loader}><Loader/></div> :
             <div className={s.favoritesPage}>
