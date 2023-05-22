@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+
+
+.filtersBoxOut {
+    grid-area: filters;
+    background: #FFFFFF;
+    border: 1px solid #EAEBED;
+    border-radius: 12px;
+    height: fit-content;
+}
+
+.filtersBoxIn {
+    padding: 20px;
+
+}
+
+.fBoxHeader {
+    /*gap: 25px;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.filtersHeader {
+    font-weight: 700;
+    font-size: 20px;
+    color: #232134;
+}
+
+.filterCleaner {
+    font-weight: 500;
+    font-size: 14px;
+    color: #ACADB9;
+}
+
+.filters {
+    margin-top: 32px;
+}
+
+.catalogues {
+
+}
+
+.salaries {
+    padding-top: 20px;
+}
+
+.salaryFrom {
+
+}
+
+.salaryTo {
+    padding-top: 8px;
+}
+
+.acceptButton {
+    margin-top: 20px;
+    width: -webkit-fill-available;
+}
+

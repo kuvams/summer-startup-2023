@@ -1,0 +1,11 @@
+.loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.favoritesPage {
+    padding: 16px 0;
+    height: 100%;
+}

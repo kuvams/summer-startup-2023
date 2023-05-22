@@ -1,0 +1,63 @@
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.VacancyInfo {
+    padding-top: 40px;
+}
+
+.vacancyCard {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background: #FFFFFF;
+    border: 1px solid #EAEBED;
+    border-radius: 12px;
+}
+
+.profession {
+    font-family: Inter, serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.secStr {
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 16px 0;
+}
+
+.zp {
+    font-weight: 700;
+}
+
+.dot {
+    color: #7B7C88;
+    padding: 0 12px;
+}
+
+.workType {
+}
+
+.location {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.detail {
+    margin-top: 20px;
+    padding: 16px;
+    background: #FFFFFF;
+    border: 1px solid #EAEBED;
+    border-radius: 12px;
+}
+
+.fullInfo {
+max-width: 75%;
+}

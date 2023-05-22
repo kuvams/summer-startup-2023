@@ -1,0 +1,26 @@
+.vacanciesPage {
+    padding: 40px 0;
+    display: grid;
+    grid-template-areas: "filters search"
+                         "filters vacancies";
+    grid-template-columns: 22vw auto;
+
+}
+
+.vacanciesArea {
+    margin: 0 24px;
+}
+
+.vacancies {
+    grid-area: vacancies;
+}
+
+.loader {
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination {
+    padding-top: 40px;
+}

@@ -1,0 +1,43 @@
+.vacancie {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin-top: 24px;
+    background: #FFFFFF;
+    border: 1px solid #EAEBED;
+    border-radius: 12px;
+}
+
+.profession {
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+
+    color: #5E96FC;
+}
+
+.vacanciesList {
+}
+
+.favButton {
+
+}
+
+.location {
+    display: flex;
+}
+
+.empty {
+    gap: 32px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.ups {
+    font-size: 24px;
+    font-weight: 700;
+}

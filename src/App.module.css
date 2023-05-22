@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+
+.app {
+  display: grid;
+
+  grid-template-areas:
+  "header"
+  "Page";
+
+  grid-template-rows: 60px 1fr;
+
+  font-family: 'Inter', serif;
+
+  background: #F7F7F8;
+  border-radius: 12px;
+  min-height: 100vh;
+}
