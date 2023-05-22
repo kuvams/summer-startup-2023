@@ -83,11 +83,11 @@ const VacanciesPage = (props) => {
 
     useEffect(() => {
         fetchCatalogues()
-    })
+    },[])
 
     useEffect(() => {
-        fetchVacanciesList(activePage);
-    })
+        fetchVacanciesList();
+    }, [activePage])
 
     return (
         <div className={s.vacanciesPage}>
