@@ -34,7 +34,7 @@ const Favorites = () => {
         if (favVacanicesList === null) {
             fetchVacanciesList();
         }
-    }, [])
+    })
 
     return (
         (favVacanicesList === null) ?
