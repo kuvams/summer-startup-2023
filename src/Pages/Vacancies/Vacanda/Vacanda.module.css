@@ -6,6 +6,7 @@
     background: #FFFFFF;
     border: 1px solid #EAEBED;
     border-radius: 12px;
+    min-width: 450px;
 }
 
 .profession {
